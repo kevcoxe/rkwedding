@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackUmbctutorialsApp.controller:MainCtrl
+ * @name rkweddingApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the hackUmbctutorialsApp
+ * Controller of the rkweddingApp
  */
-angular.module('hackUmbctutorialsApp').controller('HeaderController', ["$scope", function ($scope) {
+angular.module('rkweddingApp').controller('HeaderController', ["$scope", function ($scope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
