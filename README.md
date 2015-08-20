@@ -1,1 +1,1 @@
-# [rkwedding](http://kevcoxe.github.io/rkwedding/app/index.html)
+# [rkwedding](http://kevcoxe.github.io/rkwedding/index.html)
