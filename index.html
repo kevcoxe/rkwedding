@@ -51,13 +51,13 @@
             $(document).ready(function() {
 
                 // Grab the current date
-                var currentDate = new Date();
+                var currentDate = new Date().getTime();
 
                 // Set some date in the future. In this case, it's always Jan 1
-                var futureDate  = new Date('October 11, 2015 04:00:00');
+                var futureDate  = new Date('October 10, 2015 16:00:00').getTime();
 
                 // Calculate the difference in seconds between the future and current date
-                var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+                var diff = (futureDate - currentDate) / 1000;
 
                 // Instantiate a coutdown FlipClock
                 clock = $('.clock').FlipClock(diff, {
